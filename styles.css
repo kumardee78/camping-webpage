@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+ header ul{
+    list-style-type: none;
+}
+.wrapper{
+    width:100vw;
+    height:100vh;
+    font-family: Poppins,sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*-----------------------------header-section--------------------------------*/
+header{
+    width:98.9%;
+    height:12%;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    padding: 0 6rem;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:5;
+}
+header ul{
+    display: flex;
+    gap: 2.6rem;
+}
+
+
+/*------------------------- section -1 -----------------------*/
+
+.camping{
+    text-align: center;
+    background-image: url(download.jpg);
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.background{
+    padding-top:9.9rem;
+    padding-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 3rem;
+}
+.text h1{
+    font-size: 3.75rem;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.text p{
+    font-size: 1.25rem;
+    color: white;
+}
+a{
+    color: black;
+    font-size: 1.22rem;
+    padding: 0.4rem 2rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+a:hover{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+header h2:hover, header li:hover{
+    color: rgb(221, 221, 221);
+}
+/*---------------------- section -2 -------------------------*/
+
+
+
+main{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.service-box{
+    padding: 5rem 4.3rem;
+    text-align: center;
+}
+.service-box h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.image{
+    padding: 3rem ;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+}
+.image img{
+    width: 7.5rem;
+    height:7.5rem;
+    border-radius: 50%;
+}
+.image div {
+    width: 31%;
+    padding: 2rem ;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+.image div h3{
+    padding-top:1.3rem;
+}
+.image div p{
+    padding-top: 0.45rem;
+}
+
+/*------------------------- section -3 ----------------------------------*/
+
+.about-box{
+    text-align: center;
+    padding: 0 4.3rem;
+}
+.about-box h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.about-box .about-us{
+    text-align: center;
+}
+.about-box .story{
+    text-align: start;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.story ul{
+    padding-left: 1.3rem;
+    padding-top: 0.7rem;
+}
+.story p{
+    padding-top: 0.7rem;
+}
+
+/*---------------------------- section -4 ---------------------------------------*/
+
+.contact-box{ 
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.contact-box h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.flex-box{
+    width: 85%;
+    margin:  0 auto;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.detail{
+    width: 40%;
+}
+.detail span{
+    padding-left: 1rem;
+}
+.detail i{
+    color: #7a7a7a;
+}
+.detail div{
+    margin-bottom:0.5rem;
+}
+
+.right-side{
+    width: 45%;
+}
+.form input{
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf
+}
+.form textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+}
